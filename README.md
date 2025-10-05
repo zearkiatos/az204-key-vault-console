@@ -35,8 +35,13 @@ $ make run
 $ . ./run.sh; run
 ```
 
+
 # Direct command with donten cli
 
 ```sh
 $ dotnet run
 ```
+
+# Architecture
+
+<img width="1421" height="789" alt="arquitectura-para-administrar-secretos" src="https://github.com/user-attachments/assets/98f2eed1-670f-47d3-a344-df2872824b55" />
