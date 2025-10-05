@@ -18,6 +18,7 @@ class Program
 
     static async Task Main(string[] args)
     {
+        Console.WriteLine($"Key Vault URL: {keyVaultUrl}, Secret Name: {secretName}, Blob Container: {blobContainerName}, Blob Name: {blobName}, Tenant ID: {tenantId}, Client ID: {clientId}, Client Secret: {clientSecret}");
         var credential = new ClientSecretCredential(tenantId, clientId, clientSecret);
 
         var client = new SecretClient(new Uri(keyVaultUrl), credential);
